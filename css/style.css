@@ -175,6 +175,72 @@ section h2 {
     color: var(--light);
 }
 
+/* WORK SECTION */
+.sectionHeading {
+  text-align: center;
+}
+
+.workCards{
+  padding: 0 20px 20px 20px;
+}
+
+.cardContainer {
+  text-align: center;
+  padding: 0 15px;
+  margin-top: 20px;  
+}
+
+#work .cardContainer .card {
+  height: 500px;
+  width: 400px;
+  color: var(--light);
+}
+
+#work {
+  background-color: var(--light);
+}
+
+/* SKILLS */
+#skills {
+  background-color: #343a40;
+}
+
+#skills .sectionHeading {
+  color: var(--light);
+}
+
+#skills .skillsCarousel {
+  margin-top: 40px;
+}
+
+#skills .skillsCarousel .carousel {
+  padding: 50px 10px;
+}
+
+.carouselStyle {
+  width: 50%;
+  text-align: center;
+  color: var(--light);
+  margin: 0 auto;
+}
+/* CONTACT BUTTON */
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .contactButton {
+  height: 80px;
+  width: 240px;
+  font-size: 24px;    
+}
+
+/* MODAL */
+#contact .modal-header {
+  color: var(--light);
+}
+
 footer {
     height: 200px;
     background: rgb(65,65,65);
