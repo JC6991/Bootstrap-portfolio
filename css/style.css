@@ -191,8 +191,8 @@ section h2 {
 }
 
 #work .cardContainer .card {
-  height: 500px;
-  width: 400px;
+  height: auto;
+  width: auto;
   color: var(--light);
 }
 
@@ -209,18 +209,23 @@ section h2 {
   color: var(--light);
 }
 
-#skills .skillsCarousel {
+/* ABOUT */
+#about .sectionHeading {
+  color: #343a40;
+}
+
+#about .skillsCarousel {
   margin-top: 40px;
 }
 
-#skills .skillsCarousel .carousel {
+#about .skillsCarousel .carousel {
   padding: 50px 10px;
 }
 
 .carouselStyle {
   width: 50%;
   text-align: center;
-  color: var(--light);
+  color: #343a40;
   margin: 0 auto;
 }
 /* CONTACT BUTTON */
