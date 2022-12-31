@@ -13,26 +13,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/*a {
-  color: #fdcc52;
-  transition: all .35s;
-}
-
-a:hover, a:focus {
-  color: #fcbd20;
-}
-
-hr {
-  max-width: 100px;
-  margin: 25px auto 0;
-  border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1);
-}
-
-hr.light {
-  border-color: white;
-} */
-
 @font-face {
     font-family: Montserrat Regular;
     src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
@@ -148,14 +128,13 @@ section h2 {
   }
 
 /* NAV BAR */
-#mainNav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
+#mainNav {       
     width: 100%;
     background-color: rgba(5,5,5,0.7);
     font-family: Montserrat Regular; 
     z-index: 50;
+    position: fixed;    
+    top: 0px;        
 }
 
 #mainNav .navbar-brand {        
@@ -237,6 +216,10 @@ section h2 {
   margin: 40px 0 0 0;
 }
 
+#about h5 {
+  margin: 25px 0;
+}
+
 #about .skillsCarousel .carousel {
   padding: 50px 0;  
 }
@@ -252,7 +235,7 @@ section h2 {
   color: #343a40;
 }
 
-#about .carousel-control-prev {
+#about .carousel-control-next {
   color: #343a40;
 }
 /* CONTACT BUTTON */
@@ -260,6 +243,7 @@ section h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
 }
 
 #contact .contactButton {
