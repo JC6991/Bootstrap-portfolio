@@ -4,7 +4,7 @@
 
 html,
 body {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 
@@ -36,6 +36,11 @@ hr.light {
 @font-face {
     font-family: Montserrat Regular;
     src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Font Awesome;
+  src: url(../vendor/fontawesome-free/css/all.css);
 }
 
 h1,
@@ -185,6 +190,9 @@ section h2 {
 }
 
 .cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 0 15px;
   margin-top: 20px;  
@@ -202,11 +210,22 @@ section h2 {
 
 /* SKILLS */
 #skills {
-  background-color: #343a40;
+  background-color: #0a1c2e;
 }
 
 #skills .sectionHeading {
   color: var(--light);
+}
+
+#skills i {
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #0a1c2e;
+}
+
+#skills h5 {
+  font-size: 25px;
 }
 
 /* ABOUT */
@@ -215,11 +234,11 @@ section h2 {
 }
 
 #about .skillsCarousel {
-  margin-top: 40px;
+  margin: 40px 0 0 0;
 }
 
 #about .skillsCarousel .carousel {
-  padding: 50px 10px;
+  padding: 50px 0;  
 }
 
 .carouselStyle {
@@ -227,6 +246,14 @@ section h2 {
   text-align: center;
   color: #343a40;
   margin: 0 auto;
+}
+
+#about .carousel-control-prev {
+  color: #343a40;
+}
+
+#about .carousel-control-prev {
+  color: #343a40;
 }
 /* CONTACT BUTTON */
 #contact {
@@ -246,16 +273,49 @@ section h2 {
   color: var(--light);
 }
 
-footer {
-    height: 200px;
+footer {    
     background: rgb(65,65,65);
     background: linear-gradient(0deg, rgba(65,65,65,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#footer .socialMedia {
+  display: flex;
+  justify-content: center;
+  padding: 50 0 100 0;
+}
+
+#footer .socialMedia i {  
+  font-size: 60px;
+  color: var(--light);
+  padding: 0;
+  margin: 0;
+}
+
+#footer .socialMedia a {
+  margin: 0 100px;
+}
+
+.socialMedia a:hover {  
+  box-shadow: inset 0px 0px 8px rgb(96, 114, 173), 0 0 15px rgb(96, 114, 173);
+}
+
+#footer .copyright h6 {
+  text-align: center;
+  color: var(--light);
+  font-size: 40px;
+}
+
+#footer .copyright p {
+  text-align: center;
+  color: var(--light);
+  font-size: 25px;
+  margin-top: 100px;  
 }
 
 @media only screen and (max-width: 600px) {
     .portrait {
       height: 266px;
       width: 200px;
-      border-radius: 50%;
+      border-radius: 50%;      
     }
   }
