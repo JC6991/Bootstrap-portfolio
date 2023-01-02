@@ -34,7 +34,7 @@ Links in "My Work" section navigate to the relevant deployed page when clicked o
 ![My Work](./images/readme-photos/myWork.PNG)
 
 
-Clicking on the "Contact Me" button will open a modal that the user can enter their name, email and a topic of conversation they would like to get in touch with. ```diff - Please note that the functionality of this form is not currently working. ```
+Clicking on the "Contact Me" button will open a modal that the user can enter their name, email and a topic of conversation they would like to get in touch with. ```Please note that the functionality of this form is not currently working. ```
 
 ![Contact Me Modal](./images/readme-photos/contactMe.PNG)
 
