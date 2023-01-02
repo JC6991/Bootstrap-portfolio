@@ -1,5 +1,7 @@
 # Bootstrap-portfolio
-Portfolio  designed in HTML/CSS utilising bootstrap 
+Portfolio  designed in HTML/CSS utilising bootstrap, use the link below to visit the deployed page.
+
+https://jc6991.github.io/Bootstrap-portfolio/
 
 
 ## Description
